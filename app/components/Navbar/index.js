@@ -8,7 +8,7 @@ import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { FormattedMessage as T } from 'react-intl';
-import { Col, Row } from 'antd';
+import { Col, Row, Avatar } from 'antd';
 import star from '@images/star.svg';
 import icon from '@images/icon-notification.svg';
 
@@ -32,6 +32,15 @@ const MainDiv = styled.div`
   .ModifiedCol {
     margin-left: 1050px;
     margin-top: 20px;
+    .AvatarT {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      background-color: #519dd9;
+      font-size: 18px;
+      margin-left: 10px;
+      border: solid 4px #46beee;
+    }
   }
   .HeadingDiv {
     width: 1400px;
@@ -66,6 +75,7 @@ function Navbar({ dashData }) {
         </span>
         <Col className="ModifiedCol">
           <img height="30" src={icon} />
+          <Avatar className="AvatarT">T</Avatar>
         </Col>
       </Row>
       <div className="HeadingDiv">

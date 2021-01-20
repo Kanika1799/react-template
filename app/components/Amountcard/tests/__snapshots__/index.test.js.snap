@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Amountcard /> should render and match the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      data-testid="amountcard"
+    >
+      <div
+        class="ant-row"
+      >
+        <div
+          class="ant-col Amountcard__AmountCol-sc-1tsd2vc-2 fzatRq"
+        >
+          <div
+            class="ant-card ant-card-bordered Amountcard__AmountCardContent-sc-1tsd2vc-1 byBbUC"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="Amountcard__Box-sc-1tsd2vc-0 eIOTv"
+              >
+                <div
+                  class="ant-row"
+                >
+                  <div
+                    class="Invoice"
+                  >
+                    <div
+                      class="InvoiceToday"
+                      style="margin-top: 30px;"
+                    >
+                      <span
+                        class="Today"
+                      >
+                        03
+                      </span>
+                      <br />
+                      <span
+                        class="Due"
+                      >
+                        INVOICES DUE TODAY
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="Invoice"
+                    style="margin-left: 25px;"
+                  >
+                    <div
+                      class="InvoiceToday"
+                      style="margin-top: 30px;"
+                    >
+                      <span
+                        class="Today"
+                      >
+                        01
+                      </span>
+                      <br />
+                      <span
+                        class="Due"
+                      >
+                        INVOICES OVERDUE
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-row"
+              >
+                <span
+                  class="Time"
+                >
+                  In Time
+                </span>
+                <span
+                  class="Fees"
+                >
+                  $1232.78
+                </span>
+              </div>
+              <div
+                class="ant-row"
+              >
+                <span
+                  class="Time"
+                >
+                  Overdue
+                </span>
+                <span
+                  class="Fees"
+                >
+                  $232.08
+                </span>
+              </div>
+               
+              <div
+                class="ant-row"
+              >
+                <span
+                  class="Time"
+                >
+                  Late Fee
+                </span>
+                <span
+                  class="Fees"
+                >
+                  $32
+                </span>
+                <div
+                  class="ant-row"
+                >
+                  <span
+                    class="Time"
+                  >
+                    Total Amount
+                  </span>
+                  <span
+                    class="TotalFees"
+                  >
+                    $14896.86
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-col Amountcard__AmountCol-sc-1tsd2vc-2 fzatRq"
+        >
+          <div
+            class="ant-card ant-card-bordered Amountcard__AmountCardContent-sc-1tsd2vc-1 byBbUC"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="Amountcard__Box-sc-1tsd2vc-0 eIOTv"
+              >
+                <div
+                  class="ant-row"
+                >
+                  <div
+                    class="Invoice"
+                  >
+                    <div
+                      class="InvoiceToday"
+                      style="margin-top: 30px;"
+                    >
+                      <span
+                        class="Today"
+                      >
+                        23
+                      </span>
+                      <br />
+                      <span
+                        class="Due"
+                      >
+                        INVOICES SCHEDULED
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="Invoice"
+                    style="margin-left: 25px;"
+                  >
+                    <div
+                      class="InvoiceToday"
+                      style="margin-top: 30px;"
+                    >
+                      <span
+                        class="Today"
+                      >
+                        123
+                      </span>
+                      <br />
+                      <span
+                        class="Due"
+                      >
+                        INVOICES PAID
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-row"
+              >
+                <span
+                  class="Time"
+                >
+                  In Time
+                </span>
+                <span
+                  class="Fees"
+                >
+                  $1232.78
+                </span>
+              </div>
+              <div
+                class="ant-row"
+              >
+                <span
+                  class="Time"
+                >
+                  Overdue
+                </span>
+                <span
+                  class="Fees"
+                >
+                  $232.08
+                </span>
+              </div>
+               
+              <div
+                class="ant-row"
+              >
+                <span
+                  class="Time"
+                >
+                  Late Fee
+                </span>
+                <span
+                  class="Fees"
+                >
+                  $32
+                </span>
+                <div
+                  class="ant-row"
+                >
+                  <span
+                    class="Time"
+                  >
+                    Total Amount
+                  </span>
+                  <span
+                    class="TotalFees"
+                  >
+                    $14896.86
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+</body>
+`;

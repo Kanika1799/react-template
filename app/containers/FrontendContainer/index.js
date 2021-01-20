@@ -18,6 +18,9 @@ import { Row, Col } from 'antd';
 import Menubar from '@components/MenubarJs';
 import Navbar from '@components/Navbar';
 import CalendarComponent from '@components/Calendar';
+import Amountcard from '@components/Amountcard';
+import Cards from '@components/Cards';
+import Progresschart from '@components/Progresschart';
 import saga from './saga';
 
 const Container = styled.div`
@@ -43,7 +46,11 @@ export function FrontendContainer({ dispatchDashboard, dashData = {}, dashError 
         </Col>
         <Col>
           <Navbar dashData={dashData} />
-
+          <Cards />
+          <Row>
+            <Amountcard dashData={dashData} />
+            <Progresschart />
+          </Row>
           <CalendarComponent dashData={dashData} />
         </Col>
       </Row>

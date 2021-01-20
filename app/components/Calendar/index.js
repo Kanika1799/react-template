@@ -17,17 +17,19 @@ const MainSection = styled.div`
   display: inline-block;
   .CalendarDiv {
     width: 900px;
-    margin: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
     padding: 10px;
     float: left;
   }
   .ListDiv {
     float: right;
-    margin-top: 45px;
+    margin-top: 30px;
     .HeadingOne {
       width: 36px;
-      height: 10px;
       margin-top: 5px;
+      height: 10px;
       font-family: Inter;
       font-size: 8px;
       font-weight: 500;
@@ -66,7 +68,7 @@ const MainSection = styled.div`
       color: #777777;
     }
     .FirstList {
-      width: 450px;
+      width: 480px;
       height: 56px;
       margin-top: 15px;
       padding: 11px 24px 10px 16px;
